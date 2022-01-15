@@ -16,7 +16,7 @@ app.get("/", function (req,res) {
     res.sendFile(__dirname + "/index.html");
 });
 
-app.get("/viedo", function (req, res) {
+app.get("/pmms-dui", function (req, res) {
     console.log(req.headers);
 
     //ensure there is a range given for the viedo 
